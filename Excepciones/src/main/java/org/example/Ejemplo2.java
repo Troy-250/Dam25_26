@@ -22,7 +22,6 @@ public class Ejemplo2 {
                     case 8:
                         System.out.println("Hasta luego");
                 }
-
             } catch (InputMismatchException e) {
                 System.out.println("Error de entrada, no introduzcas letras");
                 lector.nextLine(); //ignorar el enter

@@ -16,12 +16,19 @@ public class FlagTest {
             String bandera = sc.nextLine();
             Comprobaciones.flagOk(bandera);
             System.out.println("Enhorabuena, has introducido un valor de bandera válida");
-        } catch (FlagException e) {
+            //1. tratamiento diferente para cada excepción
+        /*} catch (FlagException  e) {
             System.out.println(e.getMessage());
         } catch (InputMismatchException e) {
             System.out.println("La longitud tiene que se un número");
         } catch (Exception e) {
             System.out.println("Para todas las demás excepciones");
+        }*/
+            //2. Mismo tratamiento para todas las excepciones que puedan saltar en el bloque
+        } catch (FlagException | InputMismatchException e) {
+            System.out.println(e.getMessage());
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
 
     }

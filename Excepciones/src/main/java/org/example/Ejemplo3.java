@@ -7,7 +7,7 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Ejemplo3 {
     static void main() {
-        /*int [] numeros = new  int [10];
+        int [] numeros = new  int [10];
         for (int i = 0; i <= numeros.length ; i++) {
             //esto no se hace
             try {
@@ -19,7 +19,7 @@ public class Ejemplo3 {
 
         int [][] tabla = new int[10][5];
 
-        for (int i = 0; i < tabla.length ; i++) {
+       /* for (int i = 0; i < tabla.length ; i++) {
 
             for (int j = -1; j < tabla[i].length; j++) {
                 System.out.print(tabla[i][j]);
@@ -27,7 +27,7 @@ public class Ejemplo3 {
             }
             System.out.println();
         }
-        */
+
         String [] nombres = {"BMB", null, "asdf","124123"};
         for (int i = 0; i < nombres.length; i++) {
             //if (nombres[i]!= null)
@@ -37,6 +37,6 @@ public class Ejemplo3 {
             }catch (NullPointerException e){
                 System.err.println(e.getMessage());
             }
-        }
+        }*/
     }
 }

@@ -8,8 +8,8 @@ public class Comprobaciones {
      */
     public static void flagOk(String flag) throws FlagException {
         if (!(flag.equalsIgnoreCase("amarilla") || flag.equalsIgnoreCase("verde") || flag.equalsIgnoreCase("roja"))) {
-            //throw new FlagException();
-            throw new FlagException("La bandera no puede ser "+ flag+ ", tiene que ser amarilla, verde o roja");
+            throw new FlagException();
+            //throw new FlagException("La bandera no puede ser "+ flag+ ", tiene que ser amarilla, verde o roja");
         }
     }
 }
