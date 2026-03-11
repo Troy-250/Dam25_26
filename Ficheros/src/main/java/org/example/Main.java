@@ -16,12 +16,17 @@ public class Main {
     static void main() {
         Scanner lector = new Scanner(System.in);
         try {
-            GestionFicheros.escribirFichero();
+            GestionFicheros.escribirFicheroPW();
             System.out.println("Introduce nombre del fichero a escribir");
             String nombreFichero = lector.nextLine();
             System.out.println(GestionFicheros.crearFichero(nombreFichero));
-            GestionFicheros.escribirFichero(nombreFichero);
-            /*File f = new File("asdf");
+            System.out.println("Indica 1.Conservar texto \n2. Sobreescribir");
+            int opcion= lector.nextInt();
+            boolean append = (opcion==1)?true:false;
+            //boolean append = opcion==1;
+            GestionFicheros.escribirFicheroPWFW(nombreFichero,"primera línea del fichero", append);
+            /*GestionFicheros.escribirFicheroPW(nombreFichero);
+            File f = new File("asdf");
             if (f.exists()) {
                 System.out.println(f.delete()?"Fichero borrado":"Fichero no borrado");
             } else
