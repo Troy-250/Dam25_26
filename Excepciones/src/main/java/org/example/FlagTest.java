@@ -13,6 +13,7 @@ public class FlagTest {
             System.out.println("Introduce la longitud de la playa");
             int longitud = sc.nextInt();
             sc.nextLine(); //limpieza
+            Comprobaciones.longOk(longitud);
             System.out.println("Introduce bandera");
             String bandera = sc.nextLine();
             Comprobaciones.flagOk(bandera);
@@ -26,10 +27,10 @@ public class FlagTest {
             System.out.println("Para todas las demás excepciones");
         }*/
             //2. Mismo tratamiento para todas las excepciones que puedan saltar en el bloque
-        } catch (FlagException | InputMismatchException e) {
+        } catch (FlagException | InputMismatchException | LongException e) {
             System.out.println(e.getMessage());
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            System.out.println("Cualquier otra excepcion"+e.getMessage());
         }
 
     }

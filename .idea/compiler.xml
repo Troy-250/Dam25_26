@@ -6,7 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Ficheros" />
+        <module name="Ej00" />
+        <module name="Ej3GridImageView" />
         <module name="RandomDatos" />
+        <module name="Excepciones" />
+        <module name="Ej0" />
+        <module name="Ej4Localizacion" />
+        <module name="Ej2AlertComboPromocionPeon" />
+        <module name="EjemploAhorcado" />
+        <module name="CRUDFX" />
+        <module name="javafxFaker2" />
+        <module name="Ej1HelloWorld" />
+        <module name="CRUDFX (1)" />
       </profile>
     </annotationProcessing>
   </component>

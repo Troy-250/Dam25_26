@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Excepciones/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Excepciones/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Ficheros/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Ficheros/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFxEjemplos-master/JavaFxEjemplos-master/Ej0/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFxEjemplos-master/JavaFxEjemplos-master/Ej0/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFxEjemplos-master/JavaFxEjemplos-master/Ej00/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFxEjemplos-master/JavaFxEjemplos-master/Ej00/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFxEjemplos-master/JavaFxEjemplos-master/Ej1HelloWorld/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFxEjemplos-master/JavaFxEjemplos-master/Ej1HelloWorld/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFxEjemplos-master/JavaFxEjemplos-master/Ej2AlertComboPromocionPeon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFxEjemplos-master/JavaFxEjemplos-master/Ej2AlertComboPromocionPeon/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFxEjemplos-master/JavaFxEjemplos-master/Ej3GridImageView/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFxEjemplos-master/JavaFxEjemplos-master/Ej3GridImageView/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFxEjemplos-master/JavaFxEjemplos-master/Ej4Localizacion/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFxEjemplos-master/JavaFxEjemplos-master/Ej4Localizacion/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFxEjemplos-master/JavaFxEjemplos-master/Ej5dataFakeJavaFx/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFxEjemplos-master/JavaFxEjemplos-master/Ej5dataFakeJavaFx/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFxEjemplos-master/JavaFxEjemplos-master/Ej6EjemploAhorcado/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFxEjemplos-master/JavaFxEjemplos-master/Ej6EjemploAhorcado/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RandomDatos/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RandomDatos/src/main/resources" charset="UTF-8" />
   </component>
