@@ -26,6 +26,7 @@ public class Main {
             } while (nombres2.indexOf(nombre) != -1);
             nombres2.append(nombre).append("/");
         }
+        System.out.println(nombres2);
         String[] trozos = nombres2.toString().split("/");
         Arrays.sort(trozos);
         for (int i = 0; i < 100; i++) {
