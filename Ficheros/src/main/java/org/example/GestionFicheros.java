@@ -83,6 +83,21 @@ public class GestionFicheros {
         }
     }
 
+    public static String leerFicheroFR(String nombreFichero) {
+        StringBuilder sb= new StringBuilder();
+        try {
+            BufferedReader lectorFichero = new BufferedReader(new FileReader(nombreFichero));
+            String linea= null;
+            do{
+                linea = lectorFichero.readLine();
+                sb.append(linea).append("\n");
+            }while(linea!=null);
+        } catch (IOException e) { //incluye a la FileNotFound por herencia
+            System.out.println(e.getMessage());
+        }
+        return sb.delete(sb.length()-5, sb.length()).toString();
+    }
+
     public static String leerFichero(String nombreFichero) {
        /* File f = new File(nombreFichero);
         Scanner sc = new Scanner(f);*/
